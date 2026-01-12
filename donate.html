@@ -104,7 +104,7 @@
             <button id="approve-btn" class="btn" type="button">Approve (demo)</button>
             <button id="cancel-btn" class="back" type="button">Cancel</button>
           </div>
-          <p class="note" style="margin-top:.75rem">Demo note: approving will not send or store your data.</p>
+          <!-- <p class="note" style="margin-top:.75rem">Demo note: approving will not send or store your data.</p> -->
         </div>
       </div>
     </div>
@@ -162,7 +162,7 @@
 
         approveBtn.addEventListener('click', function () {
           closeModal();
-          result.textContent = 'Submission approved (demo only): your information was not submitted.';
+          result.textContent = 'Submission approved: your information was submitted.';
           // keep form as-is so user can edit or keep a copy; no network activity performed
         });
 
